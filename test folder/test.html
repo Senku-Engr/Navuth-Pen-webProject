@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="/paidbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/paidbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="/paidbootstrap/css/style.css">
+    <link rel="stylesheet" href="/css/Manga.css">
+    <style>
+        img{
+           
+            object-fit: contain;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    
+    <div class="container">
+        
+        <div class="row" id="row">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/paidbootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/paidbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="/paidbootstrap/js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="/paidbootstrap/js/mdb.min.js"></script> -->
+    <script>
+        fetcharticle()
+
+        let row = document.getElementById('row')
+
+        function fetcharticle() {
+            $.ajax({
+                url: '/json/myjson.json',
+                method: 'GET',
+                success: function (res) {
+                    // console.log(res)
+                    appendarticle(res, 0, 12)
+                },
+                error: function (er) {
+                    console.log(er)
+                }
+            })
+        }
+
+        let content
+
+        function appendarticle(data, start, end) {
+            content = ''
+            let n = 0
+            for (a of data) {
+                // console.log(a)
+                if (a.category == 'manga') {
+                    n++
+                    if (n > start & n <= end) {
+                        content += `
+                <div class="col-12 col-md-6 col-lg-4 col-xl-4 ">
+                    <div class="card card-cascade wider cardpadding">
+    
+                     <!-- Card image -->
+                        <div class="view view-cascade overlay">
+                            <img class="card-img-top" src="${a.image}" alt="Card image cap">
+                            <a onclick='showmodal(this)' data-id=${a.id}>
+                            <div class="mask rgba-white-slight"></div>
+                             </a>
+                        </div>
+    
+                    <!-- Card content -->
+                        <div class="card-body card-body-cascade text-center pb-0">
+    
+                       <!-- Title -->
+                         <h4 class="card-title"><strong>${a.title}</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Graffiti Artist</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">${a.description}</p>
+                    </div>
+                     </div>
+                </div>
+                `
+                    }
+
+                }
+            }
+            row.innerHTML = content
+        }
+
+
+    </script>
+</body>
+
+</html>

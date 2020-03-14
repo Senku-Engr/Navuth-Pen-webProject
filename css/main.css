@@ -1,0 +1,105 @@
+.navb{
+    color: special-color-dark;
+}
+.centerli{
+    display: inline-block;
+    justify-content: center;
+}
+
+.makelicenter {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+.logosize{
+    height: fit-content;
+    width: fit-content;
+}
+.floatright{
+    float: right;
+}
+.makeliright{
+    position: absolute;
+    left: 100%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+/* #tcon{
+    padding: 10%;
+} */
+
+.bcpadding{
+    padding-top: 20px;
+}
+
+#trendingspan{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    /* padding-left: 0; */
+    margin-left: 0;
+}
+.cardpadding{
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+  
+}
+.footerpadding{
+    padding-top: 20px;
+}
+.mycolor{
+    /* background-color: rgb(44, 38, 38); */
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.mybolder{
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+
+/*  for modal padding......... */
+.nopadding{
+    padding-bottom: 45px;
+    padding-top: 0px;
+    /* border-bottom: 0px; */
+}
+
+.mc{
+    background-color: black;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    
+}
+.fullh{
+    height: 100%;
+}
+
+.uppadding{
+    padding-top: 0px;
+}
+.sheader{
+    height: 55px;
+}
+
+.mytitle{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 30px;
+    font-family:cursive;
+}
+body{
+    font-family: cursive;
+    /* background: wheat; */
+}
+.adminmdoalstyle{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    padding-bottom: 0;
+}

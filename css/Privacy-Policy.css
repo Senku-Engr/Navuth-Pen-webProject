@@ -1,0 +1,54 @@
+
+.mycolor{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.cardpadding{
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+  
+}
+
+.footerpadding{
+    padding-top: 20px;
+}
+
+.hbold{
+    font-weight: bold;
+}
+.hbolder{
+    font-weight: bolder;
+}
+
+.fullborder{
+    border: 1px solid rgb(161, 153, 153);
+    text-align: center;
+    /* margin: 10cm; */
+    padding: 10px;
+    
+}
+.hpadding{
+    padding: 10px;
+}
+.myfooter{
+    color: rgb(219, 17, 17);
+    font-weight: bolder;
+    margin-top: 70px;
+}
+.pp{
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.mytitle{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 30px;
+    font-family:cursive;
+}
+body{
+    font-family: cursive;
+}

@@ -1,0 +1,60 @@
+*** go check col responsive 
+do trending part use card 
+check before and after
+
+privacy policy   contact us send form like authoritytoplist
+count form home...
+            privacy policy 
+            contact us 
+            admin
+
+
+do the pagination                                  ***        done
+apply all pagination to all form                   **         done
+privacy policy                                     **         done
+contact us     form only                           **         done
+redo json                                          **         done        
+re design card                                     **         done
+re design modal                                    **         done         do the padding modal     done
+re do all navbar and footer                        **
+admin page                                         **
+login ap                                           **
+add edit remove                                    **
+contact us      apply ajax to add                  ***
+contact us validate                                ***
+redesign all pages                                 ***
+reread privacy policy                              *****
+icon title page                                    *******
+add more json                                      ******
+
+
+
+note 
+    its fine the picture is that way just make sure the picture is 780*520 go to aliexpress
+    the picture is fucked up so picture size must be 780*520
+
+
+
+read more instead on pagination if pagination is impossible                    nope
+
+use ajax count json obj                                                        done
+function create append pagination with id of it own allobj/6                   done
+click each pagination append card each gap 1-12, 13-24.........                done
+use hide show maybe                                                            nope
+algorithm show card base on the index of paginiation given                     done
+
+
+json 
+    id 
+    title 
+    product name
+    card description 
+    modal description   
+    amazon link
+    rate 
+    trending 
+    best 
+    category
+    price
+    
+    

@@ -1,0 +1,9 @@
+use json to store data
+read from json to use card 
+have read more buuton each card 
+store new data in json
+md from folder html for the card
+fucking pagination bloody hell
+
+
+

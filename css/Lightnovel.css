@@ -1,0 +1,70 @@
+
+.mycolor{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.cardpadding{
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+  
+}
+
+.footerpadding{
+    padding-top: 20px;
+}
+
+#bcrumbspan{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    /* padding-left: 0; */
+    margin-left: 0;
+}
+
+.bcpadding{
+    padding-top: 20px;
+}
+
+.mybolder{
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+/*  for modal padding......... */
+.nopadding{
+    padding-bottom: 45px;
+    padding-top: 0px;
+    /* border-bottom: 0px; */
+}
+
+.mc{
+    background-color: black;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    
+}
+.fullh{
+    height: 100%;
+}
+
+.uppadding{
+    padding-top: 0px;
+}
+.sheader{
+    height: 55px;
+}
+
+
+.mytitle{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 30px;
+    font-family:cursive;
+}
+body{
+    font-family: cursive;
+}

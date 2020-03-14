@@ -1,0 +1,302 @@
+[
+    {
+        "id": "00001",
+        "title": "pooter",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 1,
+        "image" : "https://mdbootstrap.com/img/Photos/Others/photo6.jpg",
+        "category" : "electronic",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00002",
+        "title": "pooter",
+        "description": "hello",
+        "age": 10,
+        "trending" : 0,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "electronic",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00003",
+        "title": "pooter mak van",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/aaa.png",
+        "category" : "electronic",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00004",
+        "title": "goodmorning",
+        "description": "goodnight",
+        "age": 10,
+        "trending" : 0,
+        "best" : 0,
+        "image" : "https://mdbootstrap.com/img/Photos/Others/photo6.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00005",
+        "title": "jon",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 1,
+        "image" : "/Picture/aaa.png",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00006",
+        "title": "snow",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 1,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "novel",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00007",
+        "title": "dany",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "novel",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00008",
+        "title": "tierion",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "novel",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00009",
+        "title": "grogon",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00010",
+        "title": "arya",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00011",
+        "title": "dany",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "https://m.media-amazon.com/images/M/MV5BZGU3Y2U0NzYtNDgwYS00ZDMyLWJlZDQtNmVkODk5YmI4MGM2XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00012",
+        "title": "tierion",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnOOdJrmvC6h728wxVCgroHEqg1DGYKBscn9gXAz10rC6Knd2X",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00013",
+        "title": "grogon",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKxPZzGcYbnrMYrqHTk6WeOuRmu7FcyATO6MsbUPXz-jaHJn23",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00014",
+        "title": "arya",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/51MjPyuVqRL._SX323_BO1,204,203,200_.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00015",
+        "title": "red",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00016",
+        "title": "jesus",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00017",
+        "title": "jesus",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00018",
+        "title": "kamisama",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00019",
+        "title": "kamisammmma",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "/Picture/HarryPotter1.jpg",
+        "category" : "electronic",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    },
+    {
+        "id": "00020",
+        "title": "oregariu",
+        "description": "hello",
+        "age": 10,
+        "trending" : 1,
+        "best" : 0,
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/51MjPyuVqRL._SX323_BO1,204,203,200_.jpg",
+        "category" : "manga",
+        "music": [
+            "rock",
+            "pop",
+            "classic"
+        ]
+    }
+]

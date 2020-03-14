@@ -1,0 +1,15 @@
+,
+    {
+        "id": "00015",
+        "title": "Oregairu Vol. 5",
+        "Cdescription": "My Youth Romantic Comedy Is Wrong as I Expected, Vol. 5",
+        "Mdescription": "Hachiman's summer break is coming to a close, when Yui suddenly comes to visit his house. Not only that, but Totsuka has an invitation for him, as well as a request from a classmate--he even runs into Yukino's sister at the fireworks festival! Hachiman is determined not to get close to anyone or have any expectations, but even this stubborn loner can't ignore the changes occurring in his relationships with Yukino and Yui..",
+        "trending" : 0,
+        "best" : 1,
+        "category" : "lightnovel",
+        "edition" : "5",
+        "rate" : 4,
+        "link" : "https://www.amazon.com/Youth-Romantic-Comedy-Wrong-Expected/dp/0316318086/ref=sr_1_8?crid=3770BFIICVX1O&keywords=oregairu+light+novel&qid=1584163760&sprefix=oregai%2Caps%2C386&sr=8-8",
+        "image" : "/Picture/Oregairu5.jpg",
+        "price" : "11$"
+    }

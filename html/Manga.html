@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="/paidbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/paidbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="/paidbootstrap/css/style.css">
+    <link rel="stylesheet" href="/css/Manga.css">
+
+</head>
+
+<body>
+<!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button> -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+    <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+    <div class="modal-dialog modal-dialog-centered nopadding fullh" role="document">
+
+
+        <div class="modal-content mc fullh">
+            <div class="modal-header sheader">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close text-warning" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!-- uppadding make padding up 0 -->
+            <div class="modal-body uppadding">
+                <div class="row" id="rowm">
+                    <!--  append jumbotron here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--  end modal -->
+
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light lighten-5 mycolor">
+        <a class="navbar-brand mycolor mytitle" href="/html/main.html">BuyBest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+            aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+            <!-- add this to ul to make li center   list-inline mx-auto justify-content-center -->
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/html/Lightnovel.html">Light-Novel</a>
+                        <a class="dropdown-item" href="/html/Manga.html">Manga</a>
+                        <a class="dropdown-item" href="/html/Novel.html">Novel</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link mycolor" href="/html/main.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mycolor" href="/html/Privacy-Policy.html">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mycolor" href="/html/Contact-Us.html">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item justify-content-center">
+                    <a class="nav-link makelicenter" href="#"><img class="logosize" src="" alt="put logo here"></a>
+                </li> -->
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item avatar">
+                    <a class="nav-link p-0" href="#">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg"
+                            class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--/.Navbar -->
+    
+    <div>
+        
+        <div class="container">
+
+            <div>
+                <!-- breadcrumb -->
+                <div class="bc-icons bcpadding">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb pink">
+                            <li class="breadcrumb-item active"><span id="bcrumbspan">Manga</span></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row justify-content-around" id="row">
+    
+            </div>
+            <div>
+                <!-- ul pagination -->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination pg-blue justify-content-center" id="myul">
+                        <li class="page-item disabled">
+                            <!-- <a class="page-link" tabindex="-1">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" onclick="cardpg(this)" index="1">1</a></li>
+                      <li class="page-item"><a class="page-link" onclick="cardpg(this)" index="2">2</a></li>
+                      <li class="page-item"><a class="page-link" onclick="cardpg(this)" index="3">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link">Next</a> -->
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+
+    
+ 
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+                
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="/html/main.html">Home</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="/html/Privacy-Policy.html">Privacy Policy</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="/html/Contact-Us.html">Contact Us</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+                <div class="col-md-8 col-12 mt-5">
+                    <p style="line-height: 1.7rem">Who are we? we are reviewer who review only the best book of each category, we are use the affiliate link with Amazon so each book you purchase through our Website we might earn a couple cents or might not. Thank for visiting buybest.com</p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> buybest.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+ 
+
+    <script type="text/javascript" src="/paidbootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/paidbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="/paidbootstrap/js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="/paidbootstrap/js/mdb.min.js"></script> -->
+    <script src="/js/Manga.js"></script>
+</body>
+
+</html>
